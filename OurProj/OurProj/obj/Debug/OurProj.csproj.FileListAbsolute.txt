@@ -1,0 +1,6 @@
+C:\учеба\универ\программирование\3курс\OurProj\OurProj\bin\Debug\OurProj.dll
+C:\учеба\универ\программирование\3курс\OurProj\OurProj\bin\Debug\OurProj.pdb
+C:\учеба\универ\программирование\3курс\OurProj\OurProj\obj\Debug\OurProj.csproj.AssemblyReference.cache
+C:\учеба\универ\программирование\3курс\OurProj\OurProj\obj\Debug\OurProj.csproj.CoreCompileInputs.cache
+C:\учеба\универ\программирование\3курс\OurProj\OurProj\obj\Debug\OurProj.dll
+C:\учеба\универ\программирование\3курс\OurProj\OurProj\obj\Debug\OurProj.pdb

@@ -1,0 +1,10 @@
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\bin\Debug\proverochka.exe.config
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\bin\Debug\proverochka.exe
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\bin\Debug\proverochka.pdb
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\bin\Debug\OurProj.dll
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\bin\Debug\OurProj.pdb
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\obj\Debug\proverochka.csproj.AssemblyReference.cache
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\obj\Debug\proverochka.csproj.CoreCompileInputs.cache
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\obj\Debug\proveroc.F3C3F979.Up2Date
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\obj\Debug\proverochka.exe
+C:\учеба\универ\программирование\3курс\OurProj\proverochka\obj\Debug\proverochka.pdb

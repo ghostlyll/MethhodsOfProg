@@ -1,0 +1,27 @@
+﻿<Page x:Class="TaskGiver.RoleSelectionPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="RoleSelectionPage">
+    <Grid Background="LightBlue" VerticalAlignment="Center">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Кто вы?" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       HorizontalAlignment="Center" 
+                       Margin="0,0,0,30"/>
+
+            <Button Content="Учитель" 
+                    Click="TeacherButton_Click" 
+                    Width="120" 
+                    Height="40" 
+                    FontSize="16" 
+                    Margin="0,0,0,15"/>
+
+            <Button Content="Ученик" 
+                    Click="StudentButton_Click" 
+                    Width="120" 
+                    Height="40" 
+                    FontSize="16"/>
+        </StackPanel>
+    </Grid>
+</Page>
