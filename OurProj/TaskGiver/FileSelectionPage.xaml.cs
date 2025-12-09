@@ -13,12 +13,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using System.Xml.Linq;
 
 namespace TaskGiver
 {
-    /// <summary>
-    /// Логика взаимодействия для FileSelectionPage.xaml
-    /// </summary>
     public partial class FileSelectionPage : Page
     {
         private string _userRole;
@@ -34,13 +33,15 @@ namespace TaskGiver
         {
             if (_userRole == "teacher")
             {
-                TitleText.Text = "Учитель: выберите TXT файл";
-                this.Background = System.Windows.Media.Brushes.LightCoral;
+                TitleText.Text = "Учитель: создание викторины из TXT файла";
+                this.Background = Brushes.LightCoral;
+                SelectedFileText.Text = "Выберите TXT файл с вопросами";
             }
             else
             {
-                TitleText.Text = "Ученик: выберите XML файл";
-                this.Background = System.Windows.Media.Brushes.LightGreen;
+                TitleText.Text = "Ученик: прохождение викторины";
+                this.Background = Brushes.LightGreen;
+                SelectedFileText.Text = "Выберите XML файл викторины";
             }
         }
 
@@ -51,20 +52,21 @@ namespace TaskGiver
             if (_userRole == "teacher")
             {
                 openFileDialog.Filter = "Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
-                openFileDialog.Title = "Выберите текстовый файл с заданиями";
+                openFileDialog.Title = "Выберите текстовый файл с заданиями для учителя";
             }
             else
             {
                 openFileDialog.Filter = "XML файлы (*.xml)|*.xml|Все файлы (*.*)|*.*";
-                openFileDialog.Title = "Выберите XML файл с заданиями";
+                openFileDialog.Title = "Выберите XML файл викторины для ученика";
             }
 
             if (openFileDialog.ShowDialog() == true)
             {
                 string selectedFilePath = openFileDialog.FileName;
-                SelectedFileText.Text = $"Выбран файл: {System.IO.Path.GetFileName(selectedFilePath)}";
+                string fileName = System.IO.Path.GetFileName(selectedFilePath);
+                SelectedFileText.Text = $"Выбран файл: {fileName}";
 
-                // Здесь можно добавить логику обработки файла
+                // Обрабатываем выбранный файл
                 ProcessSelectedFile(selectedFilePath);
             }
         }
@@ -75,38 +77,174 @@ namespace TaskGiver
             {
                 if (_userRole == "teacher")
                 {
-                    // Обработка TXT файла для учителя
-                    MessageBox.Show($"TXT файл выбран: {filePath}\n" +
-                                   "Здесь будет логика обработки заданий для учителя",
-                                   "Файл выбран",
-                                   MessageBoxButton.OK,
-                                   MessageBoxImage.Information);
+                    // Учитель: конвертируем TXT в XML
+                    ConvertTxtToXml(filePath);
                 }
                 else
                 {
-                    // Обработка XML файла для ученика
-                    MessageBox.Show($"XML файл выбран: {filePath}\n" +
-                                   "Здесь будет логика обработки заданий для ученика",
-                                   "Файл выбран",
-                                   MessageBoxButton.OK,
-                                   MessageBoxImage.Information);
+                    // Ученик: загружаем XML и начинаем викторину
+                    StartQuizFromXml(filePath);
                 }
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка при обработке файла: {ex.Message}",
+                MessageBox.Show($"Ошибка при обработке файла: {ex.Message}\n\nДетали: {ex.StackTrace}",
                                "Ошибка",
                                MessageBoxButton.OK,
                                MessageBoxImage.Error);
             }
         }
 
+        private void ConvertTxtToXml(string txtFilePath)
+        {
+            try
+            {
+                // Читаем TXT файл с помощью TaskReader
+                var taskReader = new OurProj.TaskReader();
+                taskReader.ReadFromFile(txtFilePath);
+
+                if (taskReader.Tasks == null || taskReader.Tasks.Count == 0)
+                {
+                    MessageBox.Show("Не удалось загрузить задания из файла. Проверьте формат файла.",
+                                   "Ошибка",
+                                   MessageBoxButton.OK,
+                                   MessageBoxImage.Error);
+                    return;
+                }
+
+                // Создаем XML документ
+                var xmlDoc = new XDocument(
+                    new XElement("quiz",
+                        new XElement("info",
+                            new XElement("title", "Викторина из TXT файла"),
+                            new XElement("sourceFile", System.IO.Path.GetFileName(txtFilePath)),
+                            new XElement("creationDate", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")),
+                            new XElement("totalQuestions", taskReader.Tasks.Count)
+                        ),
+                        taskReader.Tasks.Select(task =>
+                            new XElement("question",
+                                new XElement("text", task.Question),
+                                new XElement("points", "1"),
+                                new XElement("answers",
+                                    // Правильный ответ
+                                    new XElement("answer",
+                                        new XAttribute("correct", "true"),
+                                        task.Answer
+                                    ),
+                                    // Неправильные ответы
+                                    task.WrongAnswers.Select(wrongAnswer =>
+                                        new XElement("answer",
+                                            new XAttribute("correct", "false"),
+                                            wrongAnswer
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    )
+                );
+
+                // Предлагаем сохранить XML файл
+                var saveDialog = new SaveFileDialog();
+                saveDialog.Filter = "XML файлы (*.xml)|*.xml|Все файлы (*.*)|*.*";
+                saveDialog.Title = "Сохранить викторину как XML";
+                saveDialog.FileName = $"quiz_{DateTime.Now:yyyyMMdd_HHmmss}.xml";
+                saveDialog.DefaultExt = ".xml";
+
+                if (saveDialog.ShowDialog() == true)
+                {
+                    xmlDoc.Save(saveDialog.FileName);
+
+                    MessageBox.Show($"Викторина успешно создана!\n\n" +
+                                   $"Загружено заданий: {taskReader.Tasks.Count}\n" +
+                                   $"Сохранено в файл: {System.IO.Path.GetFileName(saveDialog.FileName)}\n\n" +
+                                   $"Теперь этот XML файл можно использовать для проведения викторины.",
+                                   "Успех",
+                                   MessageBoxButton.OK,
+                                   MessageBoxImage.Information);
+
+                    // Показываем предпросмотр созданной викторины
+                    ShowQuizPreview(taskReader);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при создании XML: {ex.Message}",
+                               "Ошибка",
+                               MessageBoxButton.OK,
+                               MessageBoxImage.Error);
+            }
+        }
+
+        private void ShowQuizPreview(OurProj.TaskReader taskReader)
+        {
+            var previewWindow = new QuizPreviewWindow(taskReader);
+            previewWindow.Owner = Window.GetWindow(this);
+            previewWindow.ShowDialog();
+        }
+
+        private void StartQuizFromXml(string xmlFilePath)
+        {
+            try
+            {
+                // Проверяем, является ли файл валидным XML для викторины
+                if (!IsValidQuizXml(xmlFilePath))
+                {
+                    MessageBox.Show("Выбранный XML файл не является валидной викториной.\n" +
+                                   "Пожалуйста, выберите файл, созданный учителем.",
+                                   "Ошибка",
+                                   MessageBoxButton.OK,
+                                   MessageBoxImage.Error);
+                    return;
+                }
+
+                // Создаем и загружаем викторину
+                var victorine = new OurProj.Victorine();
+                victorine.LoadFromXML(xmlFilePath);
+
+                if (!victorine.IsPossibleToConstruct())
+                {
+                    MessageBox.Show("Не удалось загрузить викторину из файла.",
+                                   "Ошибка",
+                                   MessageBoxButton.OK,
+                                   MessageBoxImage.Error);
+                    return;
+                }
+
+                // Переходим на страницу регистрации
+                NavigationService.Navigate(new StudentRegistrationPage(xmlFilePath, victorine));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при загрузке викторины: {ex.Message}",
+                               "Ошибка",
+                               MessageBoxButton.OK,
+                               MessageBoxImage.Error);
+            }
+        }
+
+        private bool IsValidQuizXml(string xmlFilePath)
+        {
+            try
+            {
+                var xmlDoc = XDocument.Load(xmlFilePath);
+
+                // Проверяем базовую структуру
+                return xmlDoc.Root != null &&
+                       xmlDoc.Root.Name == "quiz" &&
+                       xmlDoc.Root.Elements("question").Any();
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            // Возврат на предыдущую страницу
-            if (this.NavigationService.CanGoBack)
+            if (NavigationService.CanGoBack)
             {
-                this.NavigationService.GoBack();
+                NavigationService.GoBack();
             }
         }
     }

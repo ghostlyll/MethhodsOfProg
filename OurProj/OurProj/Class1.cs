@@ -11,7 +11,7 @@ namespace OurProj
         bool IsPossibleToConstruct();
         void SaveAsXML();
         void SaveAnswers();
-        void LoadFromXML();
+        void LoadFromXML(string filePath);
         void PlayGame();
     }
 }

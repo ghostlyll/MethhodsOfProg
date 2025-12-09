@@ -13,7 +13,7 @@ namespace OurProj
             throw new NotImplementedException();
         }
 
-        public void LoadFromXML()
+        public void LoadFromXML(string filePath)
         {
             throw new NotImplementedException();
         }

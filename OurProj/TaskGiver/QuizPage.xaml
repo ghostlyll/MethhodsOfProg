@@ -1,0 +1,115 @@
+﻿<Page x:Class="TaskGiver.QuizPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Викторина">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Прогресс -->
+        <TextBlock x:Name="ProgressText" 
+                   Text="Вопрос 1 из 10" 
+                   FontSize="16" 
+                   Margin="20,20,20,10"
+                   HorizontalAlignment="Center"/>
+
+        <!-- Вопрос -->
+        <Border Grid.Row="1" 
+                Background="#F0F8FF" 
+                BorderBrush="#4682B4" 
+                BorderThickness="1"
+                CornerRadius="5"
+                Margin="20,0,20,20"
+                Padding="15">
+            <TextBlock x:Name="QuestionText" 
+                       Text="Текст вопроса" 
+                       FontSize="18" 
+                       FontWeight="Bold"
+                       TextWrapping="Wrap"/>
+        </Border>
+
+        <!-- Варианты ответов - ПРОСТОЙ РАБОЧИЙ ВАРИАНТ -->
+        <ItemsControl x:Name="AnswersList" 
+                      Grid.Row="2" 
+                      Margin="20,0,20,20">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border x:Name="answerBorder"
+                            BorderBrush="#E0E0E0" 
+                            BorderThickness="2" 
+                            CornerRadius="5"
+                            Margin="5,8"
+                            Background="White">
+                        <RadioButton Content="{Binding Text}" 
+                                     GroupName="Answers"
+                                     FontSize="16"
+                                     Padding="15,10"
+                                     IsChecked="{Binding IsSelected, Mode=TwoWay}"
+                                     Background="Transparent"
+                                     BorderThickness="0"
+                                     HorizontalContentAlignment="Left">
+                            <RadioButton.Style>
+                                <Style TargetType="RadioButton">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="RadioButton">
+                                                <ContentPresenter/>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsChecked" Value="True">
+                                            <Setter Property="FontWeight" Value="Bold"/>
+                                            <Setter Property="Foreground" Value="#4682B4"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </RadioButton.Style>
+                        </RadioButton>
+                    </Border>
+                    <DataTemplate.Triggers>
+                        <DataTrigger Binding="{Binding IsSelected}" Value="True">
+                            <Setter TargetName="answerBorder" Property="BorderBrush" Value="#4682B4"/>
+                            <Setter TargetName="answerBorder" Property="Background" Value="#F0F8FF"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsSelected}" Value="False">
+                            <Setter TargetName="answerBorder" Property="BorderBrush" Value="#E0E0E0"/>
+                            <Setter TargetName="answerBorder" Property="Background" Value="White"/>
+                        </DataTrigger>
+                    </DataTemplate.Triggers>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <!-- Навигация -->
+        <StackPanel Grid.Row="3" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center"
+                    Margin="0,0,0,20">
+            <Button x:Name="PreviousButton" 
+                    Content="Назад" 
+                    Width="100" 
+                    Height="35"
+                    Margin="0,0,20,0"
+                    Click="PreviousButton_Click"
+                    IsEnabled="False"/>
+
+            <Button x:Name="NextButton" 
+                    Content="Следующий вопрос" 
+                    Width="150" 
+                    Height="35"
+                    Click="NextButton_Click"/>
+        </StackPanel>
+
+        <!-- Прогресс бар -->
+        <ProgressBar Grid.Row="4" 
+                     x:Name="ProgressBar" 
+                     Height="20" 
+                     Margin="20,0,20,20"/>
+    </Grid>
+</Page>

@@ -1,0 +1,60 @@
+﻿<Page x:Class="TaskGiver.StudentRegistrationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Регистрация ученика">
+    <Grid Background="LightBlue">
+        <Border Background="White" 
+                CornerRadius="10" 
+                Padding="30" 
+                Width="400"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+            <StackPanel>
+                <TextBlock Text="Регистрация ученика" 
+                           FontSize="24" 
+                           FontWeight="Bold" 
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,30"/>
+
+                <StackPanel Margin="0,0,0,15">
+                    <TextBlock Text="Имя:" FontSize="16" Margin="0,0,0,5"/>
+                    <TextBox x:Name="FirstNameTextBox" 
+                             FontSize="16" 
+                             Height="30"
+                             Padding="5"/>
+                </StackPanel>
+
+                <StackPanel Margin="0,0,0,15">
+                    <TextBlock Text="Фамилия:" FontSize="16" Margin="0,0,0,5"/>
+                    <TextBox x:Name="LastNameTextBox" 
+                             FontSize="16" 
+                             Height="30"
+                             Padding="5"/>
+                </StackPanel>
+
+                <StackPanel Margin="0,0,0,25">
+                    <TextBlock Text="Группа:" FontSize="16" Margin="0,0,0,5"/>
+                    <TextBox x:Name="GroupTextBox" 
+                             FontSize="16" 
+                             Height="30"
+                             Padding="5"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Назад" 
+                            Click="BackButton_Click" 
+                            Width="100" 
+                            Height="35"
+                            Margin="0,0,20,0"
+                            Background="LightGray"/>
+
+                    <Button Content="Начать викторину" 
+                            Click="StartQuizButton_Click" 
+                            Width="150" 
+                            Height="35"
+                            Background="LightGreen"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>
