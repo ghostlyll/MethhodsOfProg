@@ -99,9 +99,14 @@ namespace OurProj
                             question = lines[i + 1].Trim();
                             i++; // Переходим к следующей строке
                         }
+                        else
+                        {
+                            throw new FormatException($"Задание №{taskNumber}: отсутствует вопрос");
+                        }
 
                         string answer = "";
                         List<string> wrongAnswers = new List<string>();
+                        bool answerFound = false; // Флаг, что ответ найден
 
                         // Ищем строки с ответом и неверными ответами
                         for (int j = i + 1; j < lines.Length; j++)
@@ -115,6 +120,13 @@ namespace OurProj
                             if (currentLine.StartsWith("Ответ:", StringComparison.OrdinalIgnoreCase))
                             {
                                 answer = currentLine.Substring("Ответ:".Length).Trim();
+                                answerFound = true;
+
+                                // Проверяем, не пустой ли ответ
+                                if (string.IsNullOrWhiteSpace(answer))
+                                {
+                                    throw new FormatException($"Задание №{taskNumber}: ответ не может быть пустым");
+                                }
                             }
                             // Проверяем неверные ответы
                             else if (currentLine.StartsWith("Неверные ответы:", StringComparison.OrdinalIgnoreCase))
@@ -137,6 +149,12 @@ namespace OurProj
                             }
                         }
 
+                        // Проверяем, был ли найден ответ
+                        if (!answerFound)
+                        {
+                            throw new FormatException($"Задание №{taskNumber}: отсутствует строка с ответом (Ответ: ...)");
+                        }
+
                         Tasks.Add(new Task
                         {
                             Number = taskNumber,
@@ -144,6 +162,48 @@ namespace OurProj
                             Answer = answer,
                             WrongAnswers = wrongAnswers
                         });
+                    }
+                }
+            }
+
+            // Дополнительная проверка после парсинга всех заданий
+            ValidateTasks();
+        }
+
+        private void ValidateTasks()
+        {
+            // Проверяем, что количество заданий соответствует заявленному
+            if (TaskCount > 0 && Tasks.Count != TaskCount)
+            {
+                throw new FormatException($"Несоответствие количества заданий: заявлено {TaskCount}, найдено {Tasks.Count}");
+            }
+
+            // Проверяем каждое задание на наличие обязательных полей
+            foreach (var task in Tasks)
+            {
+                if (string.IsNullOrWhiteSpace(task.Question))
+                {
+                    throw new FormatException($"Задание №{task.Number}: вопрос не может быть пустым");
+                }
+
+                if (string.IsNullOrWhiteSpace(task.Answer))
+                {
+                    throw new FormatException($"Задание №{task.Number}: ответ не может быть пустым");
+                }
+
+                // Проверяем на дублирование ответов
+                var allAnswers = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+                if (!allAnswers.Add(task.Answer))
+                {
+                    throw new FormatException($"Задание №{task.Number}: правильный ответ дублируется");
+                }
+
+                foreach (var wrongAnswer in task.WrongAnswers)
+                {
+                    if (!allAnswers.Add(wrongAnswer))
+                    {
+                        throw new FormatException($"Задание №{task.Number}: ответ '{wrongAnswer}' дублируется");
                     }
                 }
             }
@@ -242,6 +302,23 @@ namespace OurProj
         {
             var task = GetTaskByNumber(taskNumber);
             return task?.WrongAnswers?.Count ?? 0;
+        }
+    }
+
+    // Кастомное исключение для ошибок парсинга
+    public class TaskParseException : Exception
+    {
+        public int TaskNumber { get; }
+
+        public TaskParseException(string message, int taskNumber) : base(message)
+        {
+            TaskNumber = taskNumber;
+        }
+
+        public TaskParseException(string message, int taskNumber, Exception innerException)
+            : base(message, innerException)
+        {
+            TaskNumber = taskNumber;
         }
     }
 }

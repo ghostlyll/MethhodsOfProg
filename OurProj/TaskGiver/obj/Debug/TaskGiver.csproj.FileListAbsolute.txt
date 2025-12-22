@@ -58,3 +58,65 @@ C:\Users\GlitcH\Documents\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\Task
 C:\Users\GlitcH\Documents\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.Up2Date
 C:\Users\GlitcH\Documents\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.exe
 C:\Users\GlitcH\Documents\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.pdb
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\bin\Debug\TaskGiver.exe.config
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\bin\Debug\TaskGiver.exe
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\bin\Debug\TaskGiver.pdb
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\bin\Debug\OurProj.dll
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\bin\Debug\OurProj.pdb
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.AssemblyReference.cache
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.exe.config
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\FileSelectionPage.baml
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\QuizPage.baml
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\QuizPreviewWindow.baml
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\ResultsPage.baml
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\RoleSelectionPage.baml
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\StudentRegistrationPage.baml
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\FileSelectionPage.g.cs
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\MainWindow.g.cs
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\QuizPage.g.cs
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\QuizPreviewWindow.g.cs
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\ResultsPage.g.cs
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\RoleSelectionPage.g.cs
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\StudentRegistrationPage.g.cs
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\App.g.cs
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver_MarkupCompile.cache
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver_MarkupCompile.lref
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\MainWindow.baml
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.g.resources
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.Properties.Resources.resources
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.GenerateResource.cache
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.CoreCompileInputs.cache
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.Up2Date
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.exe
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\TaskGiver\obj\Debug\TaskGiver.pdb
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\bin\Debug\TaskGiver.exe.config
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\bin\Debug\TaskGiver.exe
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\bin\Debug\TaskGiver.pdb
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\bin\Debug\OurProj.dll
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\bin\Debug\OurProj.pdb
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.AssemblyReference.cache
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.exe.config
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\FileSelectionPage.baml
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\QuizPage.baml
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\QuizPreviewWindow.baml
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\ResultsPage.baml
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\RoleSelectionPage.baml
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\StudentRegistrationPage.baml
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\FileSelectionPage.g.cs
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\MainWindow.g.cs
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\QuizPage.g.cs
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\QuizPreviewWindow.g.cs
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\ResultsPage.g.cs
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\RoleSelectionPage.g.cs
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\StudentRegistrationPage.g.cs
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\App.g.cs
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver_MarkupCompile.cache
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver_MarkupCompile.lref
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\MainWindow.baml
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.g.resources
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.Properties.Resources.resources
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.GenerateResource.cache
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.CoreCompileInputs.cache
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.csproj.Up2Date
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.exe
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\TaskGiver\obj\Debug\TaskGiver.pdb

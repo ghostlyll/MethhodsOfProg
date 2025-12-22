@@ -10,3 +10,15 @@ C:\Users\GlitcH\Downloads\MethhodsOfProg-main\MethhodsOfProg-main\OurProj\OurPro
 C:\Users\GlitcH\Downloads\MethhodsOfProg-main\MethhodsOfProg-main\OurProj\OurProj\obj\Debug\OurProj.csproj.CoreCompileInputs.cache
 C:\Users\GlitcH\Downloads\MethhodsOfProg-main\MethhodsOfProg-main\OurProj\OurProj\obj\Debug\OurProj.dll
 C:\Users\GlitcH\Downloads\MethhodsOfProg-main\MethhodsOfProg-main\OurProj\OurProj\obj\Debug\OurProj.pdb
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\OurProj\bin\Debug\OurProj.dll
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\OurProj\bin\Debug\OurProj.pdb
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\OurProj\obj\Debug\OurProj.csproj.AssemblyReference.cache
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\OurProj\obj\Debug\OurProj.csproj.CoreCompileInputs.cache
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\OurProj\obj\Debug\OurProj.dll
+D:\MethhodsOfProg-main (1)\MethhodsOfProg-main\OurProj\OurProj\obj\Debug\OurProj.pdb
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\OurProj\bin\Debug\OurProj.dll
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\OurProj\bin\Debug\OurProj.pdb
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\OurProj\obj\Debug\OurProj.csproj.AssemblyReference.cache
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\OurProj\obj\Debug\OurProj.csproj.CoreCompileInputs.cache
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\OurProj\obj\Debug\OurProj.dll
+C:\Users\20gho\OneDrive\Документы\GitHub\MethhodsOfProg\OurProj\OurProj\obj\Debug\OurProj.pdb
