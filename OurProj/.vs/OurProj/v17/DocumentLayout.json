@@ -1,86 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\",
+  "WorkspaceRootPath": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\ourproj\\readfromtxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\readfromtxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\ourproj\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\fileselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\fileselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\fileselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\fileselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\roleselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\roleselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|c:\\users\\glitch\\downloads\\methhodsofprog-main\\methhodsofprog-main\\ourproj\\taskgiver\\roleselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\roleselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\quizpreviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\quizpreviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\quizpreviewwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\quizpreviewwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B25E5547-8239-4110-BA90-4C3E73C2B68D}|proverochka\\proverochka.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\proverochka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B25E5547-8239-4110-BA90-4C3E73C2B68D}|proverochka\\proverochka.csproj|solutionrelative:proverochka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\ourproj\\victorine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\victorine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\ourproj\\crossword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\crossword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\ourproj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\quizpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\quizpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\quizpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\quizpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\studentregistrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\studentregistrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\taskgiver\\studentregistrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\studentregistrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\studentregistrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\ourproj\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\studentregistrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\studentregistrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\quizpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\quizpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\quizpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\quizpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\fileselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\fileselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\quizpreviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\quizpreviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\quizpreviewwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\quizpreviewwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25E5547-8239-4110-BA90-4C3E73C2B68D}|proverochka\\proverochka.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\proverochka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25E5547-8239-4110-BA90-4C3E73C2B68D}|proverochka\\proverochka.csproj|solutionrelative:proverochka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|c:\\users\\20gho\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\methhodsofprog\\ourproj\\ourproj\\readfromtxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\readfromtxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\roleselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\roleselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\fileselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\fileselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\taskgiver\\roleselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA51F8E1-39E4-4109-BA5A-FF04FD84B748}|TaskGiver\\TaskGiver.csproj|solutionrelative:taskgiver\\roleselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\ourproj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\ourproj\\crossword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\crossword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\ourproj\\victorine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2006407-3936-4B76-86E8-2337B74296EE}|OurProj\\OurProj.csproj|solutionrelative:ourproj\\victorine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,15 +90,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "RoleSelectionPage.xaml",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\RoleSelectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\RoleSelectionPage.xaml",
               "RelativeDocumentMoniker": "TaskGiver\\RoleSelectionPage.xaml",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\RoleSelectionPage.xaml",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\RoleSelectionPage.xaml",
               "RelativeToolTip": "TaskGiver\\RoleSelectionPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-17T15:50:03.927Z",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "RoleSelectionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\RoleSelectionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\RoleSelectionPage.xaml.cs",
               "RelativeDocumentMoniker": "TaskGiver\\RoleSelectionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\RoleSelectionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\RoleSelectionPage.xaml.cs",
               "RelativeToolTip": "TaskGiver\\RoleSelectionPage.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwCgAAAAAAAAA",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T15:51:30.494Z",
               "IsPinned": true,
@@ -121,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "FileSelectionPage.xaml",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\FileSelectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\FileSelectionPage.xaml",
               "RelativeDocumentMoniker": "TaskGiver\\FileSelectionPage.xaml",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\FileSelectionPage.xaml",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\FileSelectionPage.xaml",
               "RelativeToolTip": "TaskGiver\\FileSelectionPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-17T15:52:55.85Z",
@@ -134,38 +134,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TaskGiver\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\MainWindow.xaml",
               "RelativeToolTip": "TaskGiver\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-17T15:31:25.803Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TaskGiver\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TaskGiver\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:31:25.473Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TaskGiver\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TaskGiver\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:31:25.473Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ReadFromTXT.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\ReadFromTXT.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\ReadFromTXT.cs",
               "RelativeDocumentMoniker": "OurProj\\ReadFromTXT.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\ReadFromTXT.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\ReadFromTXT.cs",
               "RelativeToolTip": "OurProj\\ReadFromTXT.cs",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAAAO0AAAA9AAAA",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwFwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T15:15:30.268Z",
               "IsPinned": true,
@@ -173,172 +175,185 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Victorine.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\Victorine.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\Victorine.cs",
               "RelativeDocumentMoniker": "OurProj\\Victorine.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\Victorine.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\Victorine.cs",
               "RelativeToolTip": "OurProj\\Victorine.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAuwAoAAAAdAAAA",
+              "ViewState": "AgIAANEAAAAAAAAAAAAAAJIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T15:14:39.082Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "Crossword.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\Crossword.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\Crossword.cs",
               "RelativeDocumentMoniker": "OurProj\\Crossword.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\Crossword.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\Crossword.cs",
               "RelativeToolTip": "OurProj\\Crossword.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBQAAAAeAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T15:12:14.985Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\Class1.cs",
+              "RelativeDocumentMoniker": "OurProj\\Class1.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\Class1.cs",
+              "RelativeToolTip": "OurProj\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:07:38.495Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\Class1.cs",
-              "RelativeDocumentMoniker": "OurProj\\Class1.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\Class1.cs",
-              "RelativeToolTip": "OurProj\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\proverochka\\Program.cs",
+              "RelativeDocumentMoniker": "proverochka\\Program.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\proverochka\\Program.cs",
+              "RelativeToolTip": "proverochka\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:07:38.495Z",
-              "IsPinned": true
+              "WhenOpened": "2025-11-17T15:26:24.893Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuizPreviewWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\QuizPreviewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TaskGiver\\QuizPreviewWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\QuizPreviewWindow.xaml.cs",
+              "RelativeToolTip": "TaskGiver\\QuizPreviewWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswCEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:46:46.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuizPreviewWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\QuizPreviewWindow.xaml",
+              "RelativeDocumentMoniker": "TaskGiver\\QuizPreviewWindow.xaml",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\QuizPreviewWindow.xaml",
+              "RelativeToolTip": "TaskGiver\\QuizPreviewWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-09T12:46:11.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\proverochka\\Program.cs",
-              "RelativeDocumentMoniker": "proverochka\\Program.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\proverochka\\Program.cs",
-              "RelativeToolTip": "proverochka\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:26:24.893Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QuizPreviewWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\QuizPreviewWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TaskGiver\\QuizPreviewWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\QuizPreviewWindow.xaml.cs",
-              "RelativeToolTip": "TaskGiver\\QuizPreviewWindow.xaml.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAswCEAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T12:46:46.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuizPreviewWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\QuizPreviewWindow.xaml",
-              "RelativeDocumentMoniker": "TaskGiver\\QuizPreviewWindow.xaml",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\QuizPreviewWindow.xaml",
-              "RelativeToolTip": "TaskGiver\\QuizPreviewWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-09T12:46:11.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FileSelectionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\FileSelectionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\FileSelectionPage.xaml.cs",
               "RelativeDocumentMoniker": "TaskGiver\\FileSelectionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\FileSelectionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\FileSelectionPage.xaml.cs",
               "RelativeToolTip": "TaskGiver\\FileSelectionPage.xaml.cs",
-              "ViewState": "AQIAAMcAAAAAAAAAAAAAANYAAAAAAAAA",
+              "ViewState": "AgIAABIBAAAAAAAAAAAYwNYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T15:53:31.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "ResultsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\ResultsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\ResultsPage.xaml.cs",
               "RelativeDocumentMoniker": "TaskGiver\\ResultsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\ResultsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\ResultsPage.xaml.cs",
               "RelativeToolTip": "TaskGiver\\ResultsPage.xaml.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAmwDwAAABNAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwDwAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T12:26:48.458Z"
+              "WhenOpened": "2025-12-09T12:26:48.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "ResultsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\ResultsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\ResultsPage.xaml",
               "RelativeDocumentMoniker": "TaskGiver\\ResultsPage.xaml",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\ResultsPage.xaml",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\ResultsPage.xaml",
               "RelativeToolTip": "TaskGiver\\ResultsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-09T12:26:17.352Z"
+              "WhenOpened": "2025-12-09T12:26:17.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "QuizPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\QuizPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\QuizPage.xaml.cs",
               "RelativeDocumentMoniker": "TaskGiver\\QuizPage.xaml.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\QuizPage.xaml.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\QuizPage.xaml.cs",
               "RelativeToolTip": "TaskGiver\\QuizPage.xaml.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAowGIAAAANAAAA",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAGIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T12:25:01.839Z"
+              "WhenOpened": "2025-12-09T12:25:01.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "QuizPage.xaml",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\QuizPage.xaml",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\QuizPage.xaml",
               "RelativeDocumentMoniker": "TaskGiver\\QuizPage.xaml",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\QuizPage.xaml",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\QuizPage.xaml",
               "RelativeToolTip": "TaskGiver\\QuizPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-09T12:22:42.376Z"
+              "WhenOpened": "2025-12-09T12:22:42.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "StudentRegistrationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\StudentRegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\StudentRegistrationPage.xaml.cs",
               "RelativeDocumentMoniker": "TaskGiver\\StudentRegistrationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\StudentRegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\StudentRegistrationPage.xaml.cs",
               "RelativeToolTip": "TaskGiver\\StudentRegistrationPage.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAD4vzsAAAAFAAAA",
+              "ViewState": "AgIAABMAAAAAAAAAAAAlwDsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T12:21:12.911Z"
+              "WhenOpened": "2025-12-09T12:21:12.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "StudentRegistrationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\StudentRegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\StudentRegistrationPage.xaml",
               "RelativeDocumentMoniker": "TaskGiver\\StudentRegistrationPage.xaml",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\TaskGiver\\StudentRegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\TaskGiver\\StudentRegistrationPage.xaml",
               "RelativeToolTip": "TaskGiver\\StudentRegistrationPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-09T12:19:03.309Z"
+              "WhenOpened": "2025-12-09T12:19:03.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 0,
               "Title": "Question.cs",
-              "DocumentMoniker": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\Question.cs",
+              "DocumentMoniker": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\Question.cs",
               "RelativeDocumentMoniker": "OurProj\\Question.cs",
-              "ToolTip": "C:\\Users\\GlitcH\\Downloads\\MethhodsOfProg-main\\MethhodsOfProg-main\\OurProj\\OurProj\\Question.cs",
+              "ToolTip": "C:\\Users\\20gho\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\MethhodsOfProg\\OurProj\\OurProj\\Question.cs",
               "RelativeToolTip": "OurProj\\Question.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAABAAAAAFAAAA",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T12:09:48.259Z"
+              "WhenOpened": "2025-12-09T12:09:48.259Z",
+              "EditorCaption": ""
             }
           ]
         }

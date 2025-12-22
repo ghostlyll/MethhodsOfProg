@@ -251,29 +251,21 @@ namespace OurProj
             return Tasks.FirstOrDefault(t => t.Number == number);
         }
 
-        // Новые методы для работы с неверными ответами
-
-        /// <summary>
         /// Получает все ответы для задания в перемешанном порядке
-        /// </summary>
         public List<string> GetShuffledAnswersForTask(int taskNumber)
         {
             var task = GetTaskByNumber(taskNumber);
             return task?.GetShuffledAnswers() ?? new List<string>();
         }
 
-        /// <summary>
         /// Проверяет, является ли ответ правильным для указанного задания
-        /// </summary>
         public bool CheckAnswer(int taskNumber, string answer)
         {
             var task = GetTaskByNumber(taskNumber);
             return task?.IsCorrectAnswer(answer) ?? false;
         }
 
-        /// <summary>
         /// Проверяет, является ли ответ неверным для указанного задания
-        /// </summary>
         public bool IsWrongAnswer(int taskNumber, string answer)
         {
             var task = GetTaskByNumber(taskNumber);
@@ -284,18 +276,14 @@ namespace OurProj
                 string.Equals(wa?.Trim(), answer?.Trim(), StringComparison.OrdinalIgnoreCase));
         }
 
-        /// <summary>
         /// Получает список всех неверных ответов для задания
-        /// </summary>
         public List<string> GetWrongAnswers(int taskNumber)
         {
             var task = GetTaskByNumber(taskNumber);
             return task?.WrongAnswers ?? new List<string>();
         }
 
-        /// <summary>
         /// Получает количество неверных ответов для задания
-        /// </summary>
         public int GetWrongAnswersCount(int taskNumber)
         {
             var task = GetTaskByNumber(taskNumber);

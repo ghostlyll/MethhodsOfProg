@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace TaskGiver
 {
-    /// <summary>
     /// Логика взаимодействия для RoleSelectionPage.xaml
-    /// </summary>
     public partial class RoleSelectionPage : Page
     {
         public RoleSelectionPage()
