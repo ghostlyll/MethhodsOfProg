@@ -112,7 +112,6 @@ namespace OurProj
                         for (int j = i + 1; j < lines.Length; j++)
                         {
                             string currentLine = lines[j].Trim();
-
                             if (string.IsNullOrEmpty(currentLine))
                                 continue;
 
@@ -198,7 +197,6 @@ namespace OurProj
                 {
                     throw new FormatException($"Задание №{task.Number}: правильный ответ дублируется");
                 }
-
                 foreach (var wrongAnswer in task.WrongAnswers)
                 {
                     if (!allAnswers.Add(wrongAnswer))
@@ -314,9 +312,8 @@ namespace OurProj
         {
             TaskNumber = taskNumber;
         }
-
         public TaskParseException(string message, int taskNumber, Exception innerException)
-            : base(message, innerException)
+                    : base(message, innerException)
         {
             TaskNumber = taskNumber;
         }

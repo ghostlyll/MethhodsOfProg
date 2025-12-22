@@ -112,6 +112,29 @@ namespace TaskGiver
                     return;
                 }
 
+                // Проверяем, что у каждого вопроса есть хотя бы один неверный ответ
+                var invalidQuestions = new List<int>();
+                for (int i = 0; i < taskReader.Tasks.Count; i++)
+                {
+                    var task = taskReader.Tasks[i];
+                    if (task.WrongAnswers == null || task.WrongAnswers.Count == 0)
+                    {
+                        invalidQuestions.Add(i + 1);
+                    }
+                }
+
+                if (invalidQuestions.Count > 0)
+                {
+                    throw new InvalidQuizFormatException(
+                        "Для создания викторины каждый вопрос должен иметь хотя бы один неверный ответ.\n\n" +
+                        $"Вопросы без неверных ответов: {string.Join(", ", invalidQuestions)}\n\n" +
+                        "Пример правильного формата:\n" +
+                        "ЗАДАНИЕ №1\n" +
+                        "Какого цвета небо?\n" +
+                        "Ответ: Синего\n" +
+                        "Неверные ответы: Зелёного, Красного, Желтого");
+                }
+
                 // Создаем XML документ
                 var xmlDoc = new XDocument(
                     new XElement("quiz",
@@ -166,6 +189,13 @@ namespace TaskGiver
                     // Показываем предпросмотр созданной викторины
                     ShowQuizPreview(taskReader);
                 }
+            }
+            catch (InvalidQuizFormatException ex)
+            {
+                MessageBox.Show(ex.Message,
+                               "Некорректный формат викторины",
+                               MessageBoxButton.OK,
+                               MessageBoxImage.Error);
             }
             catch (Exception ex)
             {
@@ -246,6 +276,18 @@ namespace TaskGiver
             {
                 NavigationService.GoBack();
             }
+        }
+        public class InvalidQuizFormatException : Exception
+        {
+            public InvalidQuizFormatException() : base() { }
+
+            public InvalidQuizFormatException(string message) : base(message) { }
+
+            public InvalidQuizFormatException(string message, Exception innerException)
+                : base(message, innerException) { }
+
+            public InvalidQuizFormatException(string message, List<string> invalidQuestions)
+                : base($"{message}\nНекорректные вопросы: {string.Join(", ", invalidQuestions)}") { }
         }
     }
 }
